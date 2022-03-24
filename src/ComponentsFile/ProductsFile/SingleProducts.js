@@ -6,7 +6,7 @@ import './SingleProducts.css';
 const SingleProducts = (props) => {
     const {addToCartFun, product} = props;
     // console.log(addToCartFun);
-    const { name, img, price, seller, shipping } = product;
+    const { name, img, price, seller, shipping, id } = product;
     return (
         <div className='single-products-styel'>
 
@@ -17,6 +17,7 @@ const SingleProducts = (props) => {
             <div className="info">
                 <div>
                     <p>name : {name}</p>
+                    {/* <small>id : {id}</small> */}
                     <p>Price : {price}</p>
                     <p>shipping : {shipping}</p>
                     <p>Seller : {seller}</p>

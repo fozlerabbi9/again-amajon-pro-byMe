@@ -15,7 +15,7 @@ const CalculateInfo = (props) => {
     return (
         <div>
             <h2>Products ditles</h2>
-            <p>Total Items : {cart.length}</p>
+            <p>Total Itemss : {cart.length}</p>
             <p>Total Price : {totalprice}</p>
             <p>shipping : {shipping}</p>
             <p>Tax : {tax}</p>
