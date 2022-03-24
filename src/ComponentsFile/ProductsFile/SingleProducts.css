@@ -1,0 +1,40 @@
+.single-products-styel{
+    background-color: rgb(86, 172, 247);
+}
+img{
+    box-sizing: border-box;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
+    margin-top: 5px;
+}
+.info{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 10px;
+}
+.info p{
+    padding-top: 0;
+}
+.button{
+    background-color: red;
+    padding: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button .btn{
+    margin-right: 10px;
+}
+@media (max-width: 500px) {
+    .single-products-styel{
+        background-color: rgb(86, 247, 107);
+        margin: 0 50px;
+    }
+    img{
+        padding: 15px 15px 0 15px;
+    }
+}
